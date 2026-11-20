@@ -29,11 +29,11 @@ export const SITE_CONFIG = {
     metaPixelId: '',
   },
   images: {
-    skyline: '/src/assets/images/hero_asuncion_skyline_1795208654909.jpg',
-    office: '/src/assets/images/about_advisory_office_1795208654291.jpg',
-    documents: '/src/assets/images/documents_passport_desk_1795208653941.jpg',
-    family: '/src/assets/images/family_asuncion_lifestyle_1795208655064.jpg',
-    corporate: '/src/assets/images/business_asuncion_corporate_1795208654056.jpg',
+    skyline: '/src/assets/images/hero_asuncion_skyline_1795208654909.webp',
+    office: '/src/assets/images/about_advisory_office_1795208654291.webp',
+    documents: '/src/assets/images/documents_passport_desk_1795208653941.webp',
+    family: '/src/assets/images/family_asuncion_lifestyle_1795208655064.webp',
+    corporate: '/src/assets/images/business_asuncion_corporate_1795208654056.webp',
   },
 } as const;
 

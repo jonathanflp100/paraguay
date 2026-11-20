@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { detectBrowserLang } from './lib/i18n';
@@ -9,7 +10,8 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { PrivacyPage } from './pages/PrivacyPage';
 import { TrackRedirectPage } from './pages/TrackRedirectPage';
 import { NotFoundPage } from './pages/NotFoundPage';
-import { AdminPage } from './pages/AdminPage';
+// Admin carregado sob demanda: visitantes não baixam o código do painel
+const AdminPage = lazy(() => import('./pages/AdminPage').then((m) => ({ default: m.AdminPage })));
 
 function RootLangRedirect() {
   const targetLang = detectBrowserLang();
@@ -23,7 +25,14 @@ export default function App() {
         <Routes>
           <Route path="/" element={<RootLangRedirect />} />
           <Route path="/acompanhar" element={<TrackRedirectPage />} />
-          <Route path="/admin" element={<AdminPage />} />
+          <Route
+            path="/admin"
+            element={
+              <Suspense fallback={<div className="min-h-screen" />}>
+                <AdminPage />
+              </Suspense>
+            }
+          />
 
           <Route path="/:lang" element={<PublicLayout />}>
             <Route index element={<HomePage />} />

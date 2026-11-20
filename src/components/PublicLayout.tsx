@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Outlet, useLocation, useParams } from 'react-router-dom';
 import { initAnalytics } from '../lib/analytics';
-import { I18nContext, LOCALE_MAP, isValidLang, saveLang } from '../lib/i18n';
+import { I18nContext, LOCALE_MAP, isValidLang, loadLocale, saveLang } from '../lib/i18n';
+import type { LocaleDictionary } from '../lib/i18n';
 import { DEFAULT_LANG } from '../config';
 import { Header } from './Header';
 import { Footer } from './Footer';
@@ -13,7 +14,28 @@ export function PublicLayout() {
   const location = useLocation();
   const valid = isValidLang(lang);
   const resolvedLang = valid ? lang : DEFAULT_LANG;
-  const dictionary = LOCALE_MAP[resolvedLang];
+  const [dictionary, setDictionary] = useState<LocaleDictionary | undefined>(
+    () => LOCALE_MAP[resolvedLang]
+  );
+  const [loadedLang, setLoadedLang] = useState(resolvedLang);
+
+  useEffect(() => {
+    let active = true;
+    loadLocale(resolvedLang)
+      .then((dict) => {
+        if (!active) return;
+        setDictionary(dict);
+        setLoadedLang(resolvedLang);
+      })
+      .catch(() => {
+        if (!active) return;
+        setDictionary(LOCALE_MAP.es);
+        setLoadedLang(resolvedLang);
+      });
+    return () => {
+      active = false;
+    };
+  }, [resolvedLang]);
 
   useEffect(() => {
     initAnalytics();
@@ -41,7 +63,7 @@ export function PublicLayout() {
 
   if (!valid) {
     return (
-      <I18nContext.Provider value={{ lang: DEFAULT_LANG, t: LOCALE_MAP[DEFAULT_LANG] }}>
+      <I18nContext.Provider value={{ lang: DEFAULT_LANG, t: LOCALE_MAP[DEFAULT_LANG]! }}>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
@@ -52,6 +74,10 @@ export function PublicLayout() {
         </div>
       </I18nContext.Provider>
     );
+  }
+
+  if (!dictionary || loadedLang !== resolvedLang) {
+    return <div className="min-h-screen bg-[#F8F9FB]" />;
   }
 
   return (

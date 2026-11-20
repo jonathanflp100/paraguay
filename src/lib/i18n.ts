@@ -3,16 +3,6 @@ import { DEFAULT_LANG, LANGUAGES } from '../config';
 import type { LangCode, ServiceSlug } from '../types';
 
 import es from '../locales/es.json';
-import ptBr from '../locales/pt-br.json';
-import en from '../locales/en.json';
-import de from '../locales/de.json';
-import ru from '../locales/ru.json';
-import uk from '../locales/uk.json';
-import fr from '../locales/fr.json';
-import it from '../locales/it.json';
-import zhTw from '../locales/zh-tw.json';
-import ko from '../locales/ko.json';
-import ja from '../locales/ja.json';
 
 export interface ServiceLocaleContent {
   title: string;
@@ -273,19 +263,34 @@ export interface LocaleDictionary {
   };
 }
 
-export const LOCALE_MAP: Record<LangCode, LocaleDictionary> = {
+// Espanhol vem embutido (idioma padrão). Os outros idiomas são baixados
+// sob demanda, assim cada visitante só baixa o idioma que vai usar.
+export const LOCALE_MAP: Partial<Record<LangCode, LocaleDictionary>> = {
   es: es as unknown as LocaleDictionary,
-  'pt-br': ptBr as unknown as LocaleDictionary,
-  en: en as unknown as LocaleDictionary,
-  de: de as unknown as LocaleDictionary,
-  ru: ru as unknown as LocaleDictionary,
-  uk: uk as unknown as LocaleDictionary,
-  fr: fr as unknown as LocaleDictionary,
-  it: it as unknown as LocaleDictionary,
-  'zh-tw': zhTw as unknown as LocaleDictionary,
-  ko: ko as unknown as LocaleDictionary,
-  ja: ja as unknown as LocaleDictionary,
 };
+
+const LOCALE_LOADERS: Record<LangCode, () => Promise<{ default: unknown }>> = {
+  es: () => Promise.resolve({ default: es }),
+  'pt-br': () => import('../locales/pt-br.json'),
+  en: () => import('../locales/en.json'),
+  de: () => import('../locales/de.json'),
+  ru: () => import('../locales/ru.json'),
+  uk: () => import('../locales/uk.json'),
+  fr: () => import('../locales/fr.json'),
+  it: () => import('../locales/it.json'),
+  'zh-tw': () => import('../locales/zh-tw.json'),
+  ko: () => import('../locales/ko.json'),
+  ja: () => import('../locales/ja.json'),
+};
+
+export async function loadLocale(lang: LangCode): Promise<LocaleDictionary> {
+  const cached = LOCALE_MAP[lang];
+  if (cached) return cached;
+  const mod = await LOCALE_LOADERS[lang]();
+  const dict = mod.default as LocaleDictionary;
+  LOCALE_MAP[lang] = dict;
+  return dict;
+}
 
 const LANG_STORAGE_KEY = 'avenida_py_preferred_lang';
 
@@ -345,7 +350,7 @@ export interface I18nContextValue {
 
 export const I18nContext = createContext<I18nContextValue>({
   lang: DEFAULT_LANG,
-  t: LOCALE_MAP[DEFAULT_LANG],
+  t: es as unknown as LocaleDictionary,
 });
 
 export function useI18n(): I18nContextValue {
