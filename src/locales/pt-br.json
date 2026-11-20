@@ -1,0 +1,701 @@
+{
+  "meta": {
+    "homeTitle": "{company} — Assessoria de Documentação e Residência no Paraguai",
+    "homeDesc": "Assessoria especializada para estrangeiros no Paraguai: residência temporária, permanente, cédula de identidade, RUC e abertura de empresas em 11 idiomas.",
+    "blogTitle": "Blog e Guias sobre o Paraguai — {company}",
+    "blogDesc": "Artigos práticos e guias iniciais sobre como morar, empreender e organizar sua documentação no Paraguai.",
+    "privacyTitle": "Política de Privacidade — {company}",
+    "privacyDesc": "Entenda como cuidamos dos seus dados de contato e garantimos a segurança das suas informações.",
+    "notFoundTitle": "Página não encontrada — {company}"
+  },
+  "nav": {
+    "services": "Serviços",
+    "packages": "Pacotes",
+    "track": "Acompanhar",
+    "blog": "Blog",
+    "about": "Sobre nós",
+    "ctaWhatsapp": "Falar no WhatsApp",
+    "menuLabel": "Abrir menu",
+    "languageLabel": "Selecionar idioma"
+  },
+  "whatsapp": {
+    "floatingLabel": "Falar no WhatsApp",
+    "defaultMessage": "Olá! Vim pelo site e gostaria de uma análise gratuita para minha documentação no Paraguai.",
+    "serviceTemplate": "Olá! Vim pelo site e tenho interesse em: {service}.",
+    "packageTemplate": "Olá! Vim pelo site e gostaria de pedir um orçamento para o pacote: {package}.",
+    "notFoundProcessMessage": "Olá! Vim pelo site. Tentei consultar meu código de processo ({code}) e preciso de ajuda.",
+    "checkerTemplate": "Olá! Preenchi o verificador rápido no site.\nNome: {name}\nPaís de origem: {country}\nObjetivo: {objective}\nJá está no Paraguai?: {inParaguay}\nServiço sugerido: {service}",
+    "yesLabel": "Sim",
+    "noLabel": "Não",
+    "notProvided": "Não informado"
+  },
+  "hero": {
+    "eyebrow": "Assessoria documental em Assunção",
+    "title": "Sua vida no Paraguai começa aqui, com documentação sem complicação",
+    "subtitle": "Cuidamos de cada etapa da sua residência, cédula e abertura de empresa no Paraguai com segurança jurídica, agilidade e atendimento humano.",
+    "ctaPrimary": "Falar no WhatsApp",
+    "ctaSecondary": "Ver serviços",
+    "trust1": "Atendimento em 11 idiomas",
+    "trust2": "Acompanhamento online",
+    "trust3": "Resposta rápida",
+    "imageAlt": "Vista moderna da cidade de Assunção, Paraguai, ao pôr do sol"
+  },
+  "audience": {
+    "eyebrow": "Para quem é",
+    "title": "Assessoria sob medida para o seu momento no Paraguai",
+    "subtitle": "Cada perfil tem prioridades próprias. Conduzimos o processo de forma clara, segura e adaptada ao seu projeto de vida.",
+    "cta": "Consultar meu caso",
+    "items": [
+      {
+        "id": "retirees",
+        "title": "Aposentados",
+        "desc": "Atendimento acolhedor e tranquilo para quem busca qualidade de vida, paz e documentação regular desde a chegada."
+      },
+      {
+        "id": "entrepreneurs",
+        "title": "Empreendedores e investidores",
+        "desc": "Apoio completo para alinhar sua residência, registros locais e a estruturação da sua empresa no Paraguai."
+      },
+      {
+        "id": "nomads",
+        "title": "Nômades digitais",
+        "desc": "Orientação prática e ágil para profissionais remotos que desejam estabelecer base na América do Sul sem burocracia."
+      },
+      {
+        "id": "families",
+        "title": "Famílias",
+        "desc": "Planejamento coordenado da documentação de pais e filhos, trazendo tranquilidade para toda a mudança."
+      },
+      {
+        "id": "neighbors",
+        "title": "Brasileiros e argentinos",
+        "desc": "Atendimento fluente em português e espanhol para quem decide morar, estudar ou expandir negócios no país vizinho."
+      }
+    ]
+  },
+  "whyParaguay": {
+    "eyebrow": "Por que o Paraguai",
+    "title": "Um destino acolhedor com boas condições para viver e empreender",
+    "subtitle": "Além de um processo acessível quando bem orientado, o Paraguai oferece equilíbrio no dia a dia e espaço para novos projetos.",
+    "imageAlt": "Família internacional caminhando por uma avenida arborizada em Assunção, Paraguai",
+    "note": "Cada perfil possui particularidades. Consulte-nos para uma análise gratuita do seu caso.",
+    "items": [
+      {
+        "title": "Custo de vida equilibrado",
+        "desc": "Moradia moderna, boa gastronomia e serviços acessíveis com excelente relação entre conforto e despesas mensais."
+      },
+      {
+        "title": "Ambiente favorável a negócios",
+        "desc": "Mercado aberto a novos empreendimentos, cultura acolhedora ao investidor estrangeiro e economia em desenvolvimento constante."
+      },
+      {
+        "title": "Localização estratégica",
+        "desc": "No coração da América do Sul, facilitando deslocamentos e conexões comerciais com Brasil, Argentina e demais países da região."
+      }
+    ]
+  },
+  "servicesSection": {
+    "eyebrow": "Nossos serviços",
+    "title": "Soluções completas para sua documentação no Paraguai",
+    "subtitle": "Escolha o serviço desejado para falar diretamente no WhatsApp ou conferir como funciona cada etapa.",
+    "ctaWant": "Quero este serviço",
+    "ctaDetails": "Ver detalhes",
+    "consultNotice": "Consulte-nos para uma análise gratuita do seu caso."
+  },
+  "services": {
+    "residencia-temporaria": {
+      "title": "Residência temporária",
+      "shortDesc": "O primeiro passo habitual para viver regularmente no Paraguai com tranquilidade e respaldo local.",
+      "whatIs": "A residência temporária é a autorização migratória que permite ao estrangeiro estabelecer moradia regular no Paraguai enquanto desenvolve sua rotina pessoal, profissional ou acadêmica.",
+      "whoIsFor": [
+        "Estrangeiros que estão se mudando para o Paraguai pela primeira vez",
+        "Famílias planejando a transição para viver no país",
+        "Profissionais remotos, estudantes e novos empreendedores"
+      ],
+      "howItWorks": [
+        "Você entra em contato pelo WhatsApp e nos conta seu objetivo",
+        "Fazemos uma análise gratuita do seu caso e indicamos o caminho ideal",
+        "Conferimos seus documentos enviados com segurança pelo WhatsApp e cuidamos das etapas locais",
+        "Você acompanha cada avanço pelo código online até a conclusão"
+      ],
+      "faq": [
+        {
+          "q": "Preciso enviar documentos pelo site?",
+          "a": "Não. Os documentos são enviados com segurança somente pelo WhatsApp, nunca pelo site."
+        },
+        {
+          "q": "Quais documentos devo providenciar antes de viajar?",
+          "a": "A lista depende do seu país de origem e situação pessoal. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Consigo acompanhar o andamento do processo?",
+          "a": "Sim. Assim que o processo inicia, você recebe um código exclusivo para consultar cada etapa aqui no site."
+        }
+      ],
+      "seoTitle": "Residência Temporária no Paraguai — {company}",
+      "seoDesc": "Assessoria completa para residência temporária no Paraguai com atendimento em português e acompanhamento online."
+    },
+    "residencia-permanente": {
+      "title": "Residência permanente",
+      "shortDesc": "Estabilidade documental de longo prazo para consolidar seus planos pessoais e empresariais no país.",
+      "whatIs": "A residência permanente oferece segurança migratória duradoura para estrangeiros que escolheram o Paraguai para estabelecer moradia definitiva ou base de negócios.",
+      "whoIsFor": [
+        "Residentes prontos para consolidar sua permanência definitiva",
+        "Investidores e famílias com planos de longo prazo no país",
+        "Aposentados que buscam tranquilidade e regularidade contínua"
+      ],
+      "howItWorks": [
+        "Avaliamos gratuitamente seu perfil e elegibilidade pelo WhatsApp",
+        "Organizamos o checklist exato de documentos e etapas",
+        "Cuidamos dos protocolos e do acompanhamento presencial em Assunção",
+        "Você monitora o progresso online até receber seus documentos"
+      ],
+      "faq": [
+        {
+          "q": "Posso solicitar a residência permanente diretamente?",
+          "a": "O caminho adequado varia conforme o seu perfil e histórico migratório. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Qual o prazo e o investimento para este serviço?",
+          "a": "Cada caso tem particularidades específicas. Consulte-nos para uma análise gratuita do seu caso e orçamento sob medida."
+        },
+        {
+          "q": "Vocês atendem famílias inteiras?",
+          "a": "Sim, organizamos o processo completo para casais e filhos de forma integrada."
+        }
+      ],
+      "seoTitle": "Residência Permanente no Paraguai — {company}",
+      "seoDesc": "Orientação especializada para solicitar sua residência permanente no Paraguai com segurança e transparência."
+    },
+    "cedula-identidade": {
+      "title": "Cédula de identidade",
+      "shortDesc": "Seu documento civil paraguaio essencial para contratos, serviços locais e rotina no país.",
+      "whatIs": "A cédula de identidade paraguaia é o documento utilizado no dia a dia no Paraguai para identificação local, contratos e diversos serviços.",
+      "whoIsFor": [
+        "Estrangeiros em processo de residência ou já residentes",
+        "Famílias recém-chegadas que precisam organizar sua rotina local",
+        "Empreendedores que assinam contratos e estruturam operações no país"
+      ],
+      "howItWorks": [
+        "Confirmamos gratuitamente o status da sua documentação pelo WhatsApp",
+        "Organizamos os documentos necessários e o agendamento correspondente",
+        "Acompanhamos presencialmente as etapas exigidas",
+        "Avisamos assim que sua cédula estiver pronta para retirada"
+      ],
+      "faq": [
+        {
+          "q": "Posso fazer a residência e a cédula juntas?",
+          "a": "Sim, planejamos as etapas em sequência coordenada. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Onde envio meus documentos para conferência?",
+          "a": "Exclusivamente pelo nosso WhatsApp oficial, com total segurança."
+        },
+        {
+          "q": "Como sei quando a cédula ficar pronta?",
+          "a": "Você acompanha as 6 etapas pelo nosso consultor online e também recebe nosso aviso no WhatsApp."
+        }
+      ],
+      "seoTitle": "Cédula de Identidade no Paraguai — {company}",
+      "seoDesc": "Assessoria completa para estrangeiros obterem a cédula de identidade paraguaia com agilidade e clareza."
+    },
+    "ruc": {
+      "title": "RUC",
+      "shortDesc": "Apoio completo para o Registro Único de Contribuyentes e regularização da sua atividade.",
+      "whatIs": "O RUC (Registro Único de Contribuyentes) é o registro cadastral utilizado no Paraguai por quem exerce atividades econômicas, emite faturas ou atua profissionalmente no país.",
+      "whoIsFor": [
+        "Profissionais autônomos e consultores atuando no Paraguai",
+        "Empreendedores que precisam faturar regularmente",
+        "Sócios e administradores de empresas locais"
+      ],
+      "howItWorks": [
+        "Entendemos sua atividade e objetivo em uma conversa pelo WhatsApp",
+        "Realizamos uma análise gratuita dos pré-requisitos para o seu caso",
+        "Conduzimos o registro e a organização documental inicial",
+        "Entregamos a confirmação e orientamos sobre os próximos passos"
+      ],
+      "faq": [
+        {
+          "q": "Todo residente precisa abrir RUC?",
+          "a": "Depende de exercer ou não atividade econômica local. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Posso incluir o RUC no pacote com residência e cédula?",
+          "a": "Sim, o pacote Completo reúne residência, cédula e RUC de forma coordenada."
+        },
+        {
+          "q": "Qual o custo para emitir o RUC?",
+          "a": "Consulte-nos para uma análise gratuita do seu caso e orçamento transparente."
+        }
+      ],
+      "seoTitle": "Abertura e Gestão de RUC no Paraguai — {company}",
+      "seoDesc": "Conte com nossa assessoria para tirar seu RUC no Paraguai com segurança e orientação clara."
+    },
+    "abertura-empresa": {
+      "title": "Abertura de empresa",
+      "shortDesc": "Estruturação societária e documental para iniciar sua empresa no Paraguai com segurança.",
+      "whatIs": "Acompanhamos empreendedores e investidores estrangeiros em todas as etapas administrativas para formalizar uma empresa no Paraguai de forma organizada e transparente.",
+      "whoIsFor": [
+        "Empresários expandindo operações para o mercado sul-americano",
+        "Investidores estrangeiros estruturando novos negócios",
+        "Prestadores de serviço, comércios e empresas digitais"
+      ],
+      "howItWorks": [
+        "Analisamos gratuitamente seu projeto e estrutura desejada pelo WhatsApp",
+        "Definimos a lista de documentos dos sócios e o plano de ação",
+        "Coordenamos registros e formalizações locais com transparência",
+        "Você acompanha cada etapa online até a empresa ficar pronta"
+      ],
+      "faq": [
+        {
+          "q": "Estrangeiros podem abrir empresa no Paraguai?",
+          "a": "Sim, existem formatos adequados para diferentes perfis de negócio. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Qual tipo societário é melhor para o meu negócio?",
+          "a": "A escolha depende da atividade, número de sócios e objetivos. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Vocês oferecem pacote com residência + empresa?",
+          "a": "Sim, o pacote Empresário combina residência, cédula, RUC e abertura de empresa."
+        }
+      ],
+      "seoTitle": "Abertura de Empresa no Paraguai para Estrangeiros — {company}",
+      "seoDesc": "Assessoria especializada para abrir sua empresa no Paraguai com acompanhamento completo e atendimento em português."
+    },
+    "carteira-motorista": {
+      "title": "Carteira de motorista",
+      "shortDesc": "Orientação prática para solicitar sua habilitação local no Paraguai sem dor de cabeça.",
+      "whatIs": "Auxiliamos estrangeiros residentes em toda a preparação documental e orientação prática para obter a carteira de motorista paraguaia.",
+      "whoIsFor": [
+        "Novos residentes que pretendem dirigir regularmente no Paraguai",
+        "Famílias recém-instaladas em Assunção e região",
+        "Profissionais que dependem de mobilidade no dia a dia"
+      ],
+      "howItWorks": [
+        "Conferimos sua situação documental gratuitamente pelo WhatsApp",
+        "Orientamos sobre os passos locais e requisitos aplicáveis",
+        "Acompanhamos a organização e o andamento da solicitação",
+        "Notificamos você assim que a emissão for concluída"
+      ],
+      "faq": [
+        {
+          "q": "Quais documentos preciso apresentar?",
+          "a": "Os requisitos variam conforme sua documentação atual. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Preciso já ter a cédula de identidade?",
+          "a": "Verificamos sua etapa atual para orientar o melhor momento. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Envio foto da minha habilitação pelo site?",
+          "a": "Não. Qualquer documento é enviado exclusivamente pelo WhatsApp."
+        }
+      ],
+      "seoTitle": "Carteira de Motorista no Paraguai — {company}",
+      "seoDesc": "Saiba como solicitar sua carteira de motorista no Paraguai com nossa assessoria dedicada a estrangeiros."
+    },
+    "traducao-apostilamento": {
+      "title": "Tradução e apostilamento",
+      "shortDesc": "Coordenação de traduções públicas e orientação sobre apostilamento dos seus documentos.",
+      "whatIs": "Coordenamos traduções oficiais e orientamos você sobre o apostilamento ou legalização necessários para que seus documentos de origem sejam aceitos sem imprevistos no Paraguai.",
+      "whoIsFor": [
+        "Estrangeiros com certidões e documentos emitidos fora do espanhol",
+        "Pessoas que desejam conferir os documentos antes de viajar",
+        "Empresários com documentação societária internacional"
+      ],
+      "howItWorks": [
+        "Você compartilha suas dúvidas ou fotos dos documentos apenas pelo WhatsApp",
+        "Avaliamos gratuitamente o que precisa de tradução ou apostilamento",
+        "Coordenamos o trabalho com tradutores públicos habilitados",
+        "Integramos os documentos prontos ao seu processo no Paraguai"
+      ],
+      "faq": [
+        {
+          "q": "Quais idiomas vocês traduzem?",
+          "a": "Coordenamos traduções em diversos idiomas das Américas, Europa e Ásia. Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Devo apostilar antes de sair do meu país?",
+          "a": "Em muitos casos, preparar antes da viagem agiliza bastante. Consulte-nos para uma análise gratuita do seu caso antes de emitir certidões."
+        },
+        {
+          "q": "Posso fazer upload dos PDFs no site?",
+          "a": "Não. Por segurança, todos os documentos são tratados exclusivamente pelo WhatsApp."
+        }
+      ],
+      "seoTitle": "Tradução Pública e Apostilamento para o Paraguai — {company}",
+      "seoDesc": "Coordenação de traduções juramentadas e orientação de apostilamento para documentação de estrangeiros no Paraguai."
+    },
+    "conta-bancaria": {
+      "title": "Apoio para abrir conta bancária",
+      "shortDesc": "Preparação documental e orientação prática para sua solicitação junto a bancos locais.",
+      "whatIs": "Oferecemos suporte na organização da pasta documental e orientação passo a passo para estrangeiros e empresas que desejam solicitar abertura de conta bancária no Paraguai.",
+      "whoIsFor": [
+        "Novos residentes que desejam movimentação financeira local",
+        "Empresas recém-abertas por investidores estrangeiros",
+        "Famílias e aposentados estabelecendo vida no país"
+      ],
+      "howItWorks": [
+        "Analisamos gratuitamente seu perfil e documentação atual pelo WhatsApp",
+        "Ajudamos a organizar os comprovantes normalmente solicitados",
+        "Orientamos sobre as opções e acompanhamos o agendamento",
+        "Damos suporte próximo durante toda a solicitação"
+      ],
+      "faq": [
+        {
+          "q": "Vocês garantem a aprovação da conta?",
+          "a": "A análise e decisão final são sempre de cada instituição financeira. Nosso papel é preparar seu dossiê com rigor e orientar cada etapa."
+        },
+        {
+          "q": "O que é necessário para solicitar uma conta?",
+          "a": "Os critérios mudam conforme o banco e o perfil (pessoal ou empresarial). Consulte-nos para uma análise gratuita do seu caso."
+        },
+        {
+          "q": "Posso contratar esse apoio junto com a residência?",
+          "a": "Sim, planejamos toda a sequência de documentos para facilitar sua instalação."
+        }
+      ],
+      "seoTitle": "Apoio para Abrir Conta Bancária no Paraguai — {company}",
+      "seoDesc": "Orientação documental para estrangeiros e empresas interessados em abrir conta bancária no Paraguai."
+    }
+  },
+  "packages": {
+    "eyebrow": "Pacotes",
+    "title": "Combinações sob medida para cada objetivo",
+    "subtitle": "Unimos os serviços mais procurados em pacotes organizados, com atendimento dedicado do início ao fim.",
+    "mostPopular": "Mais escolhido",
+    "ctaQuote": "Pedir orçamento",
+    "consultNote": "Consulte-nos para uma análise gratuita do seu caso e proposta personalizada.",
+    "items": [
+      {
+        "id": "essencial",
+        "name": "Essencial",
+        "subtitle": "Residência",
+        "description": "Para quem deseja dar o primeiro passo legal no Paraguai com segurança e orientação completa.",
+        "features": [
+          "Análise gratuita inicial do seu caso",
+          "Assessoria completa para sua residência",
+          "Conferência prévia de documentos pelo WhatsApp",
+          "Código para acompanhamento online"
+        ]
+      },
+      {
+        "id": "completo",
+        "name": "Completo",
+        "subtitle": "Residência + Cédula + RUC",
+        "description": "A escolha ideal para quem quer se estabelecer por completo e viver com autonomia no país.",
+        "featured": true,
+        "features": [
+          "Tudo o que está incluído no pacote Essencial",
+          "Assessoria completa para a cédula de identidade",
+          "Gestão e orientação inicial do RUC",
+          "Coordenação integrada de todas as etapas"
+        ]
+      },
+      {
+        "id": "empresario",
+        "name": "Empresário",
+        "subtitle": "Completo + Abertura de empresa",
+        "description": "Voltado para empreendedores e investidores que precisam de documentação pessoal e empresa estruturada.",
+        "features": [
+          "Tudo o que está incluído no pacote Completo",
+          "Abertura e formalização da sua empresa",
+          "Orientação documental para sócios",
+          "Atendimento prioritário em todas as fases"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Como funciona",
+    "title": "Quatro passos simples do primeiro contato à entrega",
+    "subtitle": "Sem burocracia confusa. Você fala direto com nossa equipe e acompanha tudo com transparência.",
+    "securityTitle": "Os documentos são enviados com segurança pelo WhatsApp",
+    "securityDesc": "Nunca pedimos upload de passaportes ou arquivos pessoais neste site. Todo envio documental acontece exclusivamente no nosso WhatsApp oficial.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Contato no WhatsApp",
+        "desc": "Você nos chama no seu idioma, conta seu objetivo e recebe resposta rápida."
+      },
+      {
+        "number": "02",
+        "title": "Análise gratuita do seu caso",
+        "desc": "Avaliamos seu perfil e explicamos claramente quais documentos e etapas se aplicam."
+      },
+      {
+        "number": "03",
+        "title": "Cuidamos de todo o processo",
+        "desc": "Organizamos traduções, protocolos e acompanhamento presencial enquanto você consulta tudo online."
+      },
+      {
+        "number": "04",
+        "title": "Você recebe seus documentos",
+        "desc": "Concluímos cada etapa e coordenamos a entrega segura da sua documentação."
+      }
+    ]
+  },
+  "checker": {
+    "eyebrow": "Verificador rápido",
+    "title": "Descubra o caminho ideal para o seu caso em 1 minuto",
+    "subtitle": "Responda 4 perguntas rápidas e abra o WhatsApp com suas respostas já organizadas para agilizar sua análise gratuita.",
+    "stepOf": "Etapa {current} de {total}",
+    "next": "Continuar",
+    "back": "Voltar",
+    "finish": "Finalizar e abrir WhatsApp",
+    "saving": "Preparando seu atendimento...",
+    "step1Title": "Qual é o seu país de origem?",
+    "step1Placeholder": "Selecione ou digite seu país",
+    "step2Title": "Qual é o seu principal objetivo no Paraguai?",
+    "step3Title": "Você já está no Paraguai?",
+    "step4Title": "Como podemos te chamar?",
+    "step4Placeholder": "Seu nome (opcional)",
+    "step4Optional": "Campo opcional. Nenhum documento é solicitado aqui.",
+    "summaryTitle": "Resumo do seu perfil",
+    "doneTitle": "Tudo pronto! Seu resumo foi montado",
+    "doneDesc": "Se o WhatsApp não abriu automaticamente, clique no botão abaixo para enviar sua mensagem pronta à nossa equipe.",
+    "openWhatsappNow": "Abrir WhatsApp agora",
+    "restart": "Refazer verificação",
+    "objectives": {
+      "morar": "Morar no Paraguai",
+      "investir": "Investir / Abrir empresa",
+      "aposentar": "Me aposentar",
+      "trabalhar": "Trabalhar / Trabalho remoto",
+      "estudar": "Estudar"
+    },
+    "inParaguayYes": "Sim, já estou no Paraguai",
+    "inParaguayNo": "Não, ainda estou fora do Paraguai",
+    "countries": [
+      "Brasil",
+      "Argentina",
+      "Portugal",
+      "Estados Unidos",
+      "Alemanha",
+      "Espanha",
+      "França",
+      "Itália",
+      "Rússia",
+      "Ucrânia",
+      "Taiwan",
+      "Coreia do Sul",
+      "Japão",
+      "Uruguai",
+      "Chile",
+      "Colômbia",
+      "México",
+      "Suíça",
+      "Reino Unido",
+      "Canadá"
+    ],
+    "otherCountry": "Outro país",
+    "recommendedPrefix": "Serviço sugerido"
+  },
+  "tracker": {
+    "eyebrow": "Acompanhe seu processo",
+    "title": "Consulte o status do seu processo online",
+    "subtitle": "Digite o código fornecido pela nossa equipe para ver em qual etapa sua documentação está.",
+    "placeholder": "Ex.: PY-7K3M9Q",
+    "button": "Consultar",
+    "searching": "Consultando...",
+    "demoHint": "Código de teste disponível enquanto o Supabase não está conectado: PY-7K3M9Q",
+    "serviceLabel": "Serviço",
+    "codeLabel": "Código",
+    "updatedLabel": "Última atualização",
+    "noteLabel": "Observação da equipe",
+    "noNote": "Seu processo está em andamento conforme previsto.",
+    "notFoundTitle": "Não encontramos um processo com esse código",
+    "notFoundDesc": "Confira se as letras e números foram digitados corretamente (ex.: PY-7K3M9Q) ou fale conosco no WhatsApp para verificarmos rapidamente.",
+    "notFoundCta": "Falar no WhatsApp",
+    "stages": [
+      "Documentos recebidos",
+      "Em análise",
+      "Protocolado",
+      "Em andamento",
+      "Pronto para retirada",
+      "Concluído"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Depoimentos",
+    "title": "Histórias de quem contou com a nossa assessoria",
+    "subtitle": "Exemplos ilustrativos marcados como [PLACEHOLDER] para substituição pelos depoimentos reais dos clientes.",
+    "prevLabel": "Depoimento anterior",
+    "nextLabel": "Próximo depoimento",
+    "items": [
+      {
+        "quote": "[PLACEHOLDER] Atendimento impecável desde a primeira mensagem no WhatsApp. Explicaram tudo sem enrolação e acompanhei cada etapa do meu processo pelo código online.",
+        "author": "[PLACEHOLDER] Ricardo Almeida",
+        "origin": "São Paulo → Assunção",
+        "service": "Pacote Completo"
+      },
+      {
+        "quote": "[PLACEHOLDER] Viemos em família e precisávamos organizar residência e cédula para todos. A equipe foi extremamente acolhedora e ágil em cada detalhe.",
+        "author": "[PLACEHOLDER] Camila & Fernando Costa",
+        "origin": "Curitiba → Paraguai",
+        "service": "Residência familiar"
+      },
+      {
+        "quote": "[PLACEHOLDER] Precisava abrir minha empresa e regularizar minha residência ao mesmo tempo. Ter tudo coordenado por uma equipe local trouxe muita tranquilidade.",
+        "author": "[PLACEHOLDER] Thomas Weber",
+        "origin": "Alemanha → Assunção",
+        "service": "Pacote Empresário"
+      },
+      {
+        "quote": "[PLACEHOLDER] Fui orientada ainda no Brasil sobre traduções e apostilamento, o que evitou qualquer atraso quando cheguei ao Paraguai.",
+        "author": "[PLACEHOLDER] Beatriz Mendes",
+        "origin": "Belo Horizonte → Paraguai",
+        "service": "Residência temporária"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Dúvidas comuns sobre documentação no Paraguai",
+    "subtitle": "Respostas objetivas para ajudar você a planejar sua vinda com segurança.",
+    "ctaPrompt": "Ainda tem alguma dúvida sobre o seu caso?",
+    "ctaButton": "Falar com um especialista",
+    "items": [
+      {
+        "q": "Como faço para começar meu processo?",
+        "a": "Basta clicar em qualquer botão de WhatsApp ou preencher o verificador rápido. Consulte-nos para uma análise gratuita do seu caso."
+      },
+      {
+        "q": "Preciso enviar fotos ou PDFs dos meus documentos pelo site?",
+        "a": "Não. Nenhum documento é enviado pelo site. Toda conferência e envio documental acontece com segurança exclusivamente pelo WhatsApp."
+      },
+      {
+        "q": "Em quais idiomas vocês atendem?",
+        "a": "Atendemos em 11 idiomas: português, espanhol, inglês, alemão, russo, ucraniano, francês, italiano, chinês tradicional, coreano e japonês."
+      },
+      {
+        "q": "Posso organizar tudo antes de viajar para o Paraguai?",
+        "a": "Sim! Orientar os documentos ainda no seu país de origem costuma tornar a chegada muito mais tranquila. Consulte-nos para uma análise gratuita do seu caso."
+      },
+      {
+        "q": "Qual é a diferença entre residência temporária e permanente?",
+        "a": "São modalidades distintas de permanência no país, indicadas conforme o momento e o perfil de cada pessoa. Consulte-nos para uma análise gratuita do seu caso."
+      },
+      {
+        "q": "Qual é o valor e o prazo para concluir os documentos?",
+        "a": "Os detalhes variam conforme o serviço escolhido, a nacionalidade e a situação individual. Consulte-nos para uma análise gratuita do seu caso."
+      },
+      {
+        "q": "Vocês fazem o processo para toda a família?",
+        "a": "Sim, atendemos indivíduos, casais e famílias completas com acompanhamento coordenado."
+      },
+      {
+        "q": "Como funciona o acompanhamento online do processo?",
+        "a": "Você recebe um código único (como PY-7K3M9Q) e consulta aqui no site em qual das 6 etapas seu processo se encontra, além das observações da equipe."
+      },
+      {
+        "q": "Vocês também auxiliam na abertura de empresa e RUC?",
+        "a": "Sim. Além da documentação pessoal, acompanhamos RUC, abertura de empresa e apoio documental para conta bancária."
+      },
+      {
+        "q": "A primeira conversa tem algum custo?",
+        "a": "Não. Consulte-nos para uma análise gratuita do seu caso pelo WhatsApp, sem compromisso."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Sobre nós",
+    "title": "Presença local em Assunção com atendimento acolhedor e transparente",
+    "story1": "Nascemos para tornar a jornada documental de estrangeiros no Paraguai simples, previsível e humana. Entendemos que mudar de país ou iniciar um negócio no exterior exige confiança em cada passo.",
+    "story2": "Unimos atuação presencial em Assunção, atendimento em 11 idiomas e acompanhamento online por código para que você tenha segurança jurídica e tranquilidade do primeiro contato até o recebimento dos documentos.",
+    "imageAlt": "Escritório de assessoria documental em Assunção com atendimento personalizado",
+    "differentials": [
+      {
+        "title": "Atendimento em 11 idiomas",
+        "desc": "Comunicação clara e culturalmente adaptada, sem barreiras de idioma."
+      },
+      {
+        "title": "Transparência em tempo real",
+        "desc": "Acompanhe cada avanço pelo código online e fale diretamente com sua equipe no WhatsApp."
+      },
+      {
+        "title": "Segurança e foco no cliente",
+        "desc": "Nenhum upload no site: seus documentos são tratados com sigilo direto no WhatsApp."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Pronto para dar o primeiro passo no Paraguai?",
+    "subtitle": "Consulte-nos para uma análise gratuita do seu caso. Nossa equipe responde rapidamente pelo WhatsApp no seu idioma.",
+    "button": "Falar no WhatsApp agora",
+    "note": "Os documentos são enviados exclusivamente pelo WhatsApp, nunca pelo site."
+  },
+  "footer": {
+    "description": "Assessoria especializada em documentação no Paraguai para estrangeiros. Confiança, agilidade e acolhimento em 11 idiomas.",
+    "servicesHeading": "Serviços",
+    "linksHeading": "Links úteis",
+    "contactHeading": "Contato",
+    "privacyLink": "Política de privacidade",
+    "blogLink": "Blog e guias",
+    "trackLink": "Acompanhar processo",
+    "homeLink": "Início",
+    "whatsappOnlyNote": "Aviso importante: não recebemos envio de documentos pelo site. Toda documentação é tratada exclusivamente pelo nosso WhatsApp oficial.",
+    "rights": "Todos os direitos reservados.",
+    "privacyNotice": "As informações preenchidas no verificador são usadas apenas para realizar o seu atendimento."
+  },
+  "servicePage": {
+    "backHome": "Voltar para o início",
+    "whatIsTitle": "O que é este serviço",
+    "whoIsForTitle": "Para quem é indicado",
+    "howItWorksTitle": "Como funciona na prática",
+    "faqTitle": "Perguntas frequentes sobre este serviço",
+    "otherServicesTitle": "Outros serviços disponíveis",
+    "ctaTitle": "Quer avaliar seu caso para este serviço?",
+    "ctaDesc": "Consulte-nos para uma análise gratuita do seu caso. Nossa equipe atende diretamente pelo WhatsApp.",
+    "ctaButton": "Quero este serviço no WhatsApp",
+    "whatsappNotice": "Lembre-se: os documentos são enviados com segurança somente pelo WhatsApp, nunca pelo site.",
+    "consultBanner": "Cada caso é único. Consulte-nos para uma análise gratuita do seu caso."
+  },
+  "blog": {
+    "eyebrow": "Blog e guias",
+    "title": "Conteúdos claros sobre morar e empreender no Paraguai",
+    "subtitle": "Guias introdutórios criados para esclarecer os primeiros passos de estrangeiros interessados no país.",
+    "readArticle": "Ler artigo",
+    "backToBlog": "Voltar para o blog",
+    "disclaimerTitle": "Aviso importante",
+    "disclaimerText": "Este artigo tem caráter exclusivamente informativo e geral. Consulte-nos para uma análise gratuita do seu caso.",
+    "ctaTitle": "Quer conversar sobre a sua situação?",
+    "ctaDesc": "Fale diretamente com a nossa equipe pelo WhatsApp para receber orientação personalizada.",
+    "ctaButton": "Falar no WhatsApp"
+  },
+  "privacy": {
+    "eyebrow": "Privacidade e segurança",
+    "title": "Política de Privacidade",
+    "updated": "Última atualização: 2026",
+    "intro": "Na {company}, valorizamos a sua privacidade e tratamos seus dados de contato com responsabilidade e transparência.",
+    "sections": [
+      {
+        "title": "1. Dados coletados neste site",
+        "body": "Ao utilizar o verificador rápido, armazenamos apenas as informações básicas fornecidas por você (país de origem, objetivo, se já está no Paraguai e nome opcional) para facilitar seu atendimento."
+      },
+      {
+        "title": "2. Sem envio de documentos pelo site",
+        "body": "Nosso site é uma vitrine informativa e não possui upload de arquivos. Passaportes, certidões e demais documentos são compartilhados somente pelo nosso WhatsApp oficial."
+      },
+      {
+        "title": "3. Acompanhamento de processos",
+        "body": "A consulta de status utiliza um código exclusivo sem expor dados sensíveis, exibindo apenas o serviço contratado, a etapa atual e a observação pública."
+      },
+      {
+        "title": "4. Preferência de idioma e métricas",
+        "body": "Armazenamos localmente sua escolha de idioma para melhorar sua experiência e podemos utilizar métricas agregadas de navegação para aprimorar o atendimento."
+      },
+      {
+        "title": "5. Contato e exclusão de dados",
+        "body": "Você pode solicitar a atualização ou remoção dos seus dados de contato a qualquer momento enviando um e-mail para o endereço informado no rodapé."
+      }
+    ]
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Página não encontrada",
+    "desc": "O endereço que você procurou pode ter mudado ou não existir. Volte para a página inicial ou fale conosco pelo WhatsApp.",
+    "backHome": "Voltar ao início",
+    "contactWhatsapp": "Falar no WhatsApp"
+  }
+}

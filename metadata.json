@@ -1,0 +1,6 @@
+{
+  "name": "Avenida Paraguai — Assessoria de Documentação",
+  "description": "Assessoria especializada em documentação, residência, cédula, RUC e abertura de empresas no Paraguai para estrangeiros em 11 idiomas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

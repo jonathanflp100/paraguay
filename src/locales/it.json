@@ -1,0 +1,701 @@
+{
+  "meta": {
+    "homeTitle": "{company} — Consulenza Residenza e Documenti in Paraguay",
+    "homeDesc": "Consulenza specializzata per stranieri in Paraguay: residenza temporanea, permanente, Cédula, RUC e apertura società in 11 lingue.",
+    "blogTitle": "Blog e Guide sul Paraguay — {company}",
+    "blogDesc": "Articoli chiari per orientarsi su trasferimento, residenza e apertura d'impresa in Paraguay.",
+    "privacyTitle": "Informativa sulla Privacy — {company}",
+    "privacyDesc": "Scopri come tuteliamo i tuoi dati di contatto e la tua riservatezza.",
+    "notFoundTitle": "Pagina non trovata — {company}"
+  },
+  "nav": {
+    "services": "Servizi",
+    "packages": "Pacchetti",
+    "track": "Segui pratica",
+    "blog": "Blog",
+    "about": "Chi siamo",
+    "ctaWhatsapp": "Scrivi su WhatsApp",
+    "menuLabel": "Apri menu",
+    "languageLabel": "Seleziona lingua"
+  },
+  "whatsapp": {
+    "floatingLabel": "Scrivi su WhatsApp",
+    "defaultMessage": "Ciao! Vengo dal sito web e vorrei una valutazione gratuita per i miei documenti in Paraguay.",
+    "serviceTemplate": "Ciao! Vengo dal sito web e sono interessato/a a: {service}.",
+    "packageTemplate": "Ciao! Vengo dal sito web e vorrei richiedere un preventivo per il pacchetto: {package}.",
+    "notFoundProcessMessage": "Ciao! Vengo dal sito web. Ho provato a verificare il mio codice ({code}) e ho bisogno di supporto.",
+    "checkerTemplate": "Ciao! Ho completato il verificatore rapido sul sito.\nNome: {name}\nPaese di origine: {country}\nObiettivo: {objective}\nGià in Paraguay?: {inParaguay}\nServizio suggerito: {service}",
+    "yesLabel": "Sì",
+    "noLabel": "No",
+    "notProvided": "Non indicato"
+  },
+  "hero": {
+    "eyebrow": "Consulenza documentale ad Asunción",
+    "title": "La tua vita in Paraguay inizia qui, con documenti senza complicazioni",
+    "subtitle": "Affianchiamo cittadini stranieri, famiglie e imprenditori in ogni fase di residenza, Cédula e apertura società con chiarezza e supporto locale.",
+    "ctaPrimary": "Scrivi su WhatsApp",
+    "ctaSecondary": "Vedi i servizi",
+    "trust1": "Assistenza in 11 lingue",
+    "trust2": "Monitoraggio online",
+    "trust3": "Risposta rapida",
+    "imageAlt": "Panorama moderno di Asunción, Paraguay, al tramonto"
+  },
+  "audience": {
+    "eyebrow": "A chi ci rivolgiamo",
+    "title": "Supporto su misura per ogni progetto in Paraguay",
+    "subtitle": "Adattiamo il percorso alle esigenze di chi si trasferisce, investe o inizia una nuova fase di vita.",
+    "cta": "Valuta il mio caso",
+    "items": [
+      {
+        "id": "retirees",
+        "title": "Pensionati",
+        "desc": "Assistenza serena e attenta per chi cerca qualità della vita, tranquillità e documenti in ordine."
+      },
+      {
+        "id": "entrepreneurs",
+        "title": "Imprenditori e investitori",
+        "desc": "Coordinamento completo per residenza, registrazioni locali e avvio della tua società."
+      },
+      {
+        "id": "nomads",
+        "title": "Nomadi digitali",
+        "desc": "Consulenza snella e trasparente per professionisti da remoto che scelgono il Sud America."
+      },
+      {
+        "id": "families",
+        "title": "Famiglie",
+        "desc": "Pianificazione coordinata dei documenti di genitori e figli per un trasferimento sereno."
+      },
+      {
+        "id": "neighbors",
+        "title": "Brasiliani e argentini",
+        "desc": "Assistenza fluente in portoghese e spagnolo per chi vive o amplia attività nella regione."
+      }
+    ]
+  },
+  "whyParaguay": {
+    "eyebrow": "Perché il Paraguay",
+    "title": "Un Paese accogliente con spazio concreto per crescere",
+    "subtitle": "Il Paraguay unisce ritmi quotidiani equilibrati a un contesto aperto a nuovi progetti personali e d'impresa.",
+    "imageAlt": "Famiglia internazionale che passeggia lungo un viale alberato ad Asunción",
+    "note": "Ogni situazione è diversa. Consultaci per un'analisi gratuita del tuo caso.",
+    "items": [
+      {
+        "title": "Costo della vita equilibrato",
+        "desc": "Abitazioni moderne, buona ristorazione e servizi quotidiani con un ottimo equilibrio."
+      },
+      {
+        "title": "Ambiente favorevole al business",
+        "desc": "Mercato aperto all'iniziativa privata e ricettivo verso nuovi progetti internazionali."
+      },
+      {
+        "title": "Posizione strategica",
+        "desc": "Nel cuore del Sud America, comodo per spostamenti e relazioni commerciali regionali."
+      }
+    ]
+  },
+  "servicesSection": {
+    "eyebrow": "I nostri servizi",
+    "title": "Soluzioni complete per i tuoi documenti in Paraguay",
+    "subtitle": "Scegli il servizio di tuo interesse per scriverci su WhatsApp o approfondire come lavoriamo.",
+    "ctaWant": "Voglio questo servizio",
+    "ctaDetails": "Vedi dettagli",
+    "consultNotice": "Consultaci per un'analisi gratuita del tuo caso."
+  },
+  "services": {
+    "residencia-temporaria": {
+      "title": "Residenza temporanea",
+      "shortDesc": "Il primo passo abituale per vivere regolarmente in Paraguay con piena assistenza.",
+      "whatIs": "La residenza temporanea è lo status migratorio che consente ai cittadini stranieri di vivere regolarmente in Paraguay.",
+      "whoIsFor": [
+        "Stranieri che si trasferiscono in Paraguay per la prima volta",
+        "Famiglie che pianificano un trasferimento graduale",
+        "Lavoratori da remoto, studenti e professionisti"
+      ],
+      "howItWorks": [
+        "Ci scrivi su WhatsApp raccontandoci il tuo obiettivo",
+        "Eseguiamo un'analisi gratuita del tuo caso",
+        "Verifichiamo i documenti inviati in sicurezza su WhatsApp",
+        "Segui ogni avanzamento online fino al completamento"
+      ],
+      "faq": [
+        {
+          "q": "Devo caricare documenti sul sito?",
+          "a": "No. Per la tua sicurezza, tutti i documenti vengono inviati esclusivamente tramite WhatsApp."
+        },
+        {
+          "q": "Quali documenti preparare prima di partire?",
+          "a": "Dipende dalla nazionalità e dalla situazione personale. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Come controllo lo stato della pratica?",
+          "a": "Riceverai un codice personale per verificare online ogni fase."
+        }
+      ],
+      "seoTitle": "Residenza Temporanea in Paraguay — {company}",
+      "seoDesc": "Consulenza completa in italiano per la residenza temporanea in Paraguay con tracciamento online."
+    },
+    "residencia-permanente": {
+      "title": "Residenza permanente",
+      "shortDesc": "Stabilità documentale a lungo termine per consolidare i tuoi piani nel Paese.",
+      "whatIs": "La residenza permanente garantisce uno status duraturo a chi sceglie il Paraguay come base stabile.",
+      "whoIsFor": [
+        "Residenti pronti al passaggio definitivo",
+        "Investitori e famiglie con progetti a lungo termine",
+        "Pensionati in cerca di stabilità"
+      ],
+      "howItWorks": [
+        "Valutazione gratuita del tuo profilo su WhatsApp",
+        "Definizione chiara di documenti e tappe",
+        "Coordinamento locale ad Asunción",
+        "Aggiornamenti costanti tramite codice online"
+      ],
+      "faq": [
+        {
+          "q": "Posso richiedere subito la residenza permanente?",
+          "a": "Il percorso giusto dipende dal tuo profilo. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Quali sono costi e tempi?",
+          "a": "Ogni pratica varia in base al profilo. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Seguite intere famiglie?",
+          "a": "Sì, coordiniamo pratiche individuali e familiari complete."
+        }
+      ],
+      "seoTitle": "Residenza Permanente in Paraguay — {company}",
+      "seoDesc": "Supporto dedicato in italiano per ottenere la residenza permanente in Paraguay."
+    },
+    "cedula-identidade": {
+      "title": "Carta d'identità (Cédula)",
+      "shortDesc": "Il documento civile paraguaiano essenziale per la vita quotidiana e i contratti.",
+      "whatIs": "La Cédula de Identidad è il documento personale utilizzato in Paraguay per contratti, utenze e servizi locali.",
+      "whoIsFor": [
+        "Stranieri in fase di residenza o già residenti",
+        "Famiglie appena arrivate",
+        "Imprenditori e residenti"
+      ],
+      "howItWorks": [
+        "Verifica gratuita della tua documentazione su WhatsApp",
+        "Organizzazione dei passaggi e appuntamenti",
+        "Assistenza locale ad Asunción",
+        "Avviso immediato appena pronta per il ritiro"
+      ],
+      "faq": [
+        {
+          "q": "Posso coordinare residenza e Cédula insieme?",
+          "a": "Sì, pianifichiamo le tappe in sequenza. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Dove invio le copie dei documenti?",
+          "a": "Esclusivamente sul nostro WhatsApp ufficiale."
+        },
+        {
+          "q": "Come verifico lo stato?",
+          "a": "Con il tuo codice online e gli aggiornamenti su WhatsApp."
+        }
+      ],
+      "seoTitle": "Cédula d'Identità in Paraguay — {company}",
+      "seoDesc": "Assistenza passo dopo passo per ottenere la Cédula paraguaiana senza stress."
+    },
+    "ruc": {
+      "title": "RUC",
+      "shortDesc": "Supporto ordinato per registrare il tuo Registro Único de Contribuyentes.",
+      "whatIs": "Il RUC è la registrazione utilizzata in Paraguay per svolgere attività economiche ed emettere fatture regolarmente.",
+      "whoIsFor": [
+        "Liberi professionisti e consulenti",
+        "Imprenditori attivi localmente",
+        "Soci di nuove imprese"
+      ],
+      "howItWorks": [
+        "Parliamo su WhatsApp della tua attività",
+        "Analisi gratuita dei requisiti preliminari",
+        "Assistenza nell'iscrizione iniziale",
+        "Consegna della conferma e orientamento base"
+      ],
+      "faq": [
+        {
+          "q": "Tutti i residenti devono aprire il RUC?",
+          "a": "Dipende dall'attività svolta nel Paese. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Posso includerlo nel pacchetto completo?",
+          "a": "Sì, il pacchetto Completo unisce Residenza, Cédula e RUC."
+        },
+        {
+          "q": "Come ottengo un preventivo?",
+          "a": "Scrivici su WhatsApp per un'analisi gratuita del tuo caso."
+        }
+      ],
+      "seoTitle": "Registrazione RUC in Paraguay — {company}",
+      "seoDesc": "Consulenza chiara per ottenere il RUC in Paraguay."
+    },
+    "abertura-empresa": {
+      "title": "Apertura società",
+      "shortDesc": "Supporto amministrativo completo per costituire la tua impresa in Paraguay.",
+      "whatIs": "Affianchiamo imprenditori e investitori stranieri in tutte le fasi organizzative per aprire una società in Paraguay.",
+      "whoIsFor": [
+        "Imprenditori in espansione in Sud America",
+        "Investitori internazionali",
+        "Società di servizi, consulenza e commercio"
+      ],
+      "howItWorks": [
+        "Analisi gratuita del progetto su WhatsApp",
+        "Elenco dei documenti per i soci",
+        "Coordinamento delle registrazioni locali",
+        "Tracciamento online di ogni fase"
+      ],
+      "faq": [
+        {
+          "q": "Uno straniero può aprire una società in Paraguay?",
+          "a": "Sì, esistono varie forme societarie. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Quale forma societaria scegliere?",
+          "a": "Dipende da settore, soci e obiettivi. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Esiste un pacchetto residenza + società?",
+          "a": "Sì, il pacchetto Imprenditore combina Residenza, Cédula, RUC e apertura società."
+        }
+      ],
+      "seoTitle": "Aprire Società in Paraguay — {company}",
+      "seoDesc": "Assistenza dedicata per costituire la tua azienda in Paraguay."
+    },
+    "carteira-motorista": {
+      "title": "Patente di guida",
+      "shortDesc": "Assistenza pratica per richiedere la patente di guida locale in Paraguay.",
+      "whatIs": "Guidiamo i residenti nella preparazione documentale e nei passaggi locali per ottenere la patente paraguaiana.",
+      "whoIsFor": [
+        "Nuovi residenti che guidano in Paraguay",
+        "Famiglie stabilitesi ad Asunción",
+        "Professionisti con esigenze di mobilità"
+      ],
+      "howItWorks": [
+        "Verifica gratuita dei documenti su WhatsApp",
+        "Indicazione dei passaggi locali",
+        "Supporto nella presentazione",
+        "Avviso al completamento"
+      ],
+      "faq": [
+        {
+          "q": "Quali documenti occorrono?",
+          "a": "Dipende dal tuo stato attuale. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Quando avviare la richiesta?",
+          "a": "Ti indichiamo il momento ideale in base alla tua residenza."
+        },
+        {
+          "q": "Devo caricare foto della patente sul sito?",
+          "a": "No, solo tramite WhatsApp."
+        }
+      ],
+      "seoTitle": "Patente di Guida in Paraguay — {company}",
+      "seoDesc": "Supporto chiaro per richiedere la patente locale in Paraguay."
+    },
+    "traducao-apostilamento": {
+      "title": "Traduzione e apostille",
+      "shortDesc": "Coordinamento di traduzioni giurate e orientamento sull'apostille.",
+      "whatIs": "Coordiniamo traduzioni ufficiali in Paraguay e ti orientiamo su apostille e legalizzazioni dei documenti esteri.",
+      "whoIsFor": [
+        "Stranieri con atti non in spagnolo",
+        "Richiedenti che preparano i documenti prima del viaggio",
+        "Aziende con documenti societari esteri"
+      ],
+      "howItWorks": [
+        "Condividi domande o foto solo via WhatsApp",
+        "Verifichiamo gratuitamente cosa tradurre o apostillare",
+        "Coordiniamo traduttori abilitati",
+        "Integriamo i documenti pronti nella tua pratica"
+      ],
+      "faq": [
+        {
+          "q": "Quali lingue gestite?",
+          "a": "Le principali lingue europee, americane e asiatiche. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Conviene apostillare prima di partire?",
+          "a": "Spesso è fondamentale prepararlo nel Paese d'origine. Scrivici su WhatsApp prima del viaggio."
+        },
+        {
+          "q": "Posso caricare file PDF sul sito?",
+          "a": "No, i documenti passano solo da WhatsApp."
+        }
+      ],
+      "seoTitle": "Traduzione Ufficiale e Apostille in Paraguay — {company}",
+      "seoDesc": "Coordinamento traduzioni pubbliche e consulenza apostille per il Paraguay."
+    },
+    "conta-bancaria": {
+      "title": "Supporto apertura conto bancario",
+      "shortDesc": "Preparazione documentale e orientamento pratico verso le banche locali.",
+      "whatIs": "Aiutiamo nuovi residenti e imprese a preparare la documentazione di supporto per richiedere un conto bancario in Paraguay.",
+      "whoIsFor": [
+        "Nuovi residenti per operatività locale",
+        "Società appena costituite",
+        "Famiglie e pensionati in Paraguay"
+      ],
+      "howItWorks": [
+        "Analisi gratuita del profilo su WhatsApp",
+        "Organizzazione dei giustificativi richiesti",
+        "Orientamento pratico e appuntamenti",
+        "Assistenza lungo tutta la richiesta"
+      ],
+      "faq": [
+        {
+          "q": "L'apertura del conto è garantita?",
+          "a": "La decisione finale spetta sempre alla singola banca. Noi prepariamo il dossier con cura e ti affianchiamo."
+        },
+        {
+          "q": "Cosa serve preparare?",
+          "a": "Dipende dalla banca e dal tipo di conto. Consultaci per un'analisi gratuita del tuo caso."
+        },
+        {
+          "q": "Posso abbinarlo alla residenza?",
+          "a": "Sì, molti clienti pianificano tutto insieme."
+        }
+      ],
+      "seoTitle": "Supporto Conto Bancario in Paraguay — {company}",
+      "seoDesc": "Orientamento documentale per stranieri che desiderano aprire un conto in Paraguay."
+    }
+  },
+  "packages": {
+    "eyebrow": "Pacchetti",
+    "title": "Soluzioni integrate in base al tuo obiettivo",
+    "subtitle": "Uniamo le pratiche più richieste in percorsi chiari e coordinati.",
+    "mostPopular": "Più scelto",
+    "ctaQuote": "Richiedi preventivo",
+    "consultNote": "Consultaci per un'analisi gratuita del tuo caso e una proposta personalizzata.",
+    "items": [
+      {
+        "id": "essencial",
+        "name": "Essenziale",
+        "subtitle": "Residenza",
+        "description": "Ideale per compiere il primo passo legale in Paraguay con serenità.",
+        "features": [
+          "Analisi gratuita iniziale del caso",
+          "Gestione completa della residenza",
+          "Controllo preventivo su WhatsApp",
+          "Codice di tracciamento online"
+        ]
+      },
+      {
+        "id": "completo",
+        "name": "Completo",
+        "subtitle": "Residenza + Cédula + RUC",
+        "description": "La scelta preferita per stabilirsi pienamente e operare con autonomia.",
+        "featured": true,
+        "features": [
+          "Tutto ciò che è incluso in Essenziale",
+          "Assistenza completa per la Cédula",
+          "Registrazione e orientamento RUC",
+          "Coordinamento continuo di ogni fase"
+        ]
+      },
+      {
+        "id": "empresario",
+        "name": "Imprenditore",
+        "subtitle": "Completo + Apertura società",
+        "description": "Pensato per imprenditori e investitori che vogliono residenza e società insieme.",
+        "features": [
+          "Tutto ciò che è incluso in Completo",
+          "Costituzione della tua società",
+          "Orientamento documentale per i soci",
+          "Assistenza prioritaria"
+        ]
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Come funziona",
+    "title": "Quattro passaggi chiari fino ai tuoi documenti",
+    "subtitle": "Dialogo diretto con un consulente reale fin dal primo messaggio.",
+    "securityTitle": "I documenti vengono inviati in sicurezza via WhatsApp",
+    "securityDesc": "Non chiediamo mai di caricare passaporti sul sito. Ogni verifica avviene esclusivamente sul nostro WhatsApp ufficiale.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Contatto su WhatsApp",
+        "desc": "Scrivici nella tua lingua e raccontaci il tuo obiettivo."
+      },
+      {
+        "number": "02",
+        "title": "Analisi gratuita del caso",
+        "desc": "Valutiamo il tuo profilo e ti spieghiamo con chiarezza cosa serve."
+      },
+      {
+        "number": "03",
+        "title": "Seguiamo tutto il processo",
+        "desc": "Coordiniamo traduzioni, appuntamenti e depositi mentre monitori tutto online."
+      },
+      {
+        "number": "04",
+        "title": "Ricevi i tuoi documenti",
+        "desc": "Completiamo la pratica e organizziamo la consegna sicura."
+      }
+    ]
+  },
+  "checker": {
+    "eyebrow": "Verificatore rapido",
+    "title": "Scopri il percorso adatto al tuo caso in 1 minuto",
+    "subtitle": "Rispondi a 4 brevi domande e apri WhatsApp con il riepilogo già pronto.",
+    "stepOf": "Passo {current} di {total}",
+    "next": "Continua",
+    "back": "Indietro",
+    "finish": "Concludi e apri WhatsApp",
+    "saving": "Preparazione messaggio...",
+    "step1Title": "Qual è il tuo Paese di origine?",
+    "step1Placeholder": "Seleziona o scrivi il tuo Paese",
+    "step2Title": "Qual è il tuo obiettivo principale in Paraguay?",
+    "step3Title": "Sei già in Paraguay?",
+    "step4Title": "Come possiamo chiamarti?",
+    "step4Placeholder": "Il tuo nome (opzionale)",
+    "step4Optional": "Campo opzionale. Non richiediamo documenti qui.",
+    "summaryTitle": "Riepilogo della richiesta",
+    "doneTitle": "Pronto! Il riepilogo è preparato",
+    "doneDesc": "Se WhatsApp non si è aperto automaticamente, clicca qui sotto per iniziare subito la chat.",
+    "openWhatsappNow": "Apri WhatsApp ora",
+    "restart": "Ricomincia",
+    "objectives": {
+      "morar": "Vivere in Paraguay",
+      "investir": "Investire / Aprire azienda",
+      "aposentar": "Andare in pensione",
+      "trabalhar": "Lavorare / Lavoro da remoto",
+      "estudar": "Studiare"
+    },
+    "inParaguayYes": "Sì, sono già in Paraguay",
+    "inParaguayNo": "No, sono ancora all'estero",
+    "countries": [
+      "Italia",
+      "Svizzera",
+      "Argentina",
+      "Brasile",
+      "Germania",
+      "Francia",
+      "Spagna",
+      "Stati Uniti",
+      "Regno Unito",
+      "Canada",
+      "Portogallo",
+      "Russia",
+      "Ucraina",
+      "Taiwan",
+      "Corea del Sud",
+      "Giappone",
+      "Austria",
+      "Belgio",
+      "Paesi Bassi",
+      "Uruguay"
+    ],
+    "otherCountry": "Altro Paese",
+    "recommendedPrefix": "Servizio suggerito"
+  },
+  "tracker": {
+    "eyebrow": "Segui la pratica",
+    "title": "Controlla lo stato del tuo processo online",
+    "subtitle": "Inserisci il codice fornito dal nostro team per vedere la fase attuale.",
+    "placeholder": "Es.: PY-7K3M9Q",
+    "button": "Verifica",
+    "searching": "Ricerca in corso...",
+    "demoHint": "Codice dimostrativo disponibile prima della connessione Supabase: PY-7K3M9Q",
+    "serviceLabel": "Servizio",
+    "codeLabel": "Codice",
+    "updatedLabel": "Ultimo aggiornamento",
+    "noteLabel": "Nota del team",
+    "noNote": "La tua pratica procede come pianificato.",
+    "notFoundTitle": "Nessuna pratica trovata con questo codice",
+    "notFoundDesc": "Controlla lettere e numeri inseriti (es.: PY-7K3M9Q) oppure scrivici su WhatsApp.",
+    "notFoundCta": "Chiedi su WhatsApp",
+    "stages": [
+      "Documenti ricevuti",
+      "In analisi",
+      "Protocollato",
+      "In corso",
+      "Pronto per il ritiro",
+      "Concluso"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonianze",
+    "title": "Cosa racconta chi ha scelto la nostra assistenza",
+    "subtitle": "Testi di esempio contrassegnati con [PLACEHOLDER] pronti per essere sostituiti con recensioni reali.",
+    "prevLabel": "Testimonianza precedente",
+    "nextLabel": "Testimonianza successiva",
+    "items": [
+      {
+        "quote": "[PLACEHOLDER] Assistenza in italiano chiara e puntuale fin dal primo contatto su WhatsApp. Il codice online è utilissimo.",
+        "author": "[PLACEHOLDER] Marco Conti",
+        "origin": "Italia → Asunción",
+        "service": "Pacchetto Completo"
+      },
+      {
+        "quote": "[PLACEHOLDER] Ci siamo trasferiti con i bambini e il team ha reso ogni passaggio semplice e ordinato.",
+        "author": "[PLACEHOLDER] Elena & Luca Rossi",
+        "origin": "Milano → Paraguay",
+        "service": "Residenza familiare"
+      },
+      {
+        "quote": "[PLACEHOLDER] Gestire residenza e apertura società insieme ad Asunción ha fatto la differenza.",
+        "author": "[PLACEHOLDER] Davide Bianchi",
+        "origin": "Svizzera → Asunción",
+        "service": "Pacchetto Imprenditore"
+      },
+      {
+        "quote": "[PLACEHOLDER] Mi hanno guidata prima della partenza evitando qualsiasi imprevisto all'arrivo.",
+        "author": "[PLACEHOLDER] Giulia Ferrari",
+        "origin": "Roma → Paraguay",
+        "service": "Residenza temporanea"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Domande frequenti",
+    "title": "Risposte chiare per iniziare con serenità",
+    "subtitle": "Indicazioni generali e trasparenti sui documenti in Paraguay.",
+    "ctaPrompt": "Hai una domanda specifica sul tuo caso?",
+    "ctaButton": "Parla con un consulente",
+    "items": [
+      {
+        "q": "Come inizio la pratica per il Paraguay?",
+        "a": "Scrivici su WhatsApp o usa il verificatore rapido. Consultaci per un'analisi gratuita del tuo caso."
+      },
+      {
+        "q": "Devo caricare documenti sul sito?",
+        "a": "No. I documenti vengono inviati in sicurezza esclusivamente via WhatsApp."
+      },
+      {
+        "q": "In quali lingue offrite assistenza?",
+        "a": "Assistiamo clienti in 11 lingue tra cui italiano, spagnolo, portoghese, inglese e tedesco."
+      },
+      {
+        "q": "Posso organizzarmi prima di arrivare in Paraguay?",
+        "a": "Sì, verificare i documenti prima del viaggio evita ritardi. Consultaci per un'analisi gratuita del tuo caso."
+      },
+      {
+        "q": "Qual è la differenza tra residenza temporanea e permanente?",
+        "a": "Sono categorie diverse in base al profilo e al momento. Consultaci per un'analisi gratuita del tuo caso."
+      },
+      {
+        "q": "Quanto costa e quanto dura il percorso?",
+        "a": "Ogni caso dipende dal servizio e dalla situazione individuale. Consultaci per un'analisi gratuita del tuo caso."
+      },
+      {
+        "q": "Seguite intere famiglie?",
+        "a": "Sì, coordiniamo pratiche per singoli, coppie e famiglie."
+      },
+      {
+        "q": "Come funziona il codice di tracciamento?",
+        "a": "Ricevi un codice unico (es. PY-7K3M9Q) per verificare online quale delle 6 fasi è in corso."
+      },
+      {
+        "q": "Aiutate anche con RUC e società?",
+        "a": "Sì, seguiamo residenza, RUC, apertura azienda e orientamento bancario."
+      },
+      {
+        "q": "La prima valutazione è gratuita?",
+        "a": "Sì. Consultaci su WhatsApp per un'analisi gratuita del tuo caso."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Chi siamo",
+    "title": "Presenza locale ad Asunción e attenzione personale",
+    "story1": "Siamo nati per semplificare il percorso documentale di chi sceglie il Paraguay per vivere, trasferirsi in famiglia o fare impresa.",
+    "story2": "Uniamo presenza sul posto ad Asunción, assistenza in 11 lingue e monitoraggio online per offrirti massima tranquillità.",
+    "imageAlt": "Ufficio di consulenza documentale ad Asunción",
+    "differentials": [
+      {
+        "title": "Assistenza in 11 lingue",
+        "desc": "Comunicazione chiara senza barriere linguistiche."
+      },
+      {
+        "title": "Trasparenza costante",
+        "desc": "Codice online e contatto diretto su WhatsApp."
+      },
+      {
+        "title": "Sicurezza dei dati",
+        "desc": "Nessun caricamento sul sito: documenti gestiti solo via WhatsApp."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Pronto a fare il primo passo in Paraguay?",
+    "subtitle": "Consultaci per un'analisi gratuita del tuo caso. Rispondiamo rapidamente su WhatsApp nella tua lingua.",
+    "button": "Scrivi su WhatsApp ora",
+    "note": "I documenti si inviano solo via WhatsApp, mai attraverso il sito."
+  },
+  "footer": {
+    "description": "Consulenza specializzata in documenti per stranieri in Paraguay in 11 lingue.",
+    "servicesHeading": "Servizi",
+    "linksHeading": "Link utili",
+    "contactHeading": "Contatti",
+    "privacyLink": "Privacy",
+    "blogLink": "Blog e guide",
+    "trackLink": "Segui pratica",
+    "homeLink": "Home",
+    "whatsappOnlyNote": "Avviso importante: non riceviamo documenti tramite il sito. Tutto avviene esclusivamente sul nostro WhatsApp ufficiale.",
+    "rights": "Tutti i diritti riservati.",
+    "privacyNotice": "I dati inseriti servono unicamente a rispondere alla tua richiesta."
+  },
+  "servicePage": {
+    "backHome": "Torna alla home",
+    "whatIsTitle": "Cos'è questo servizio",
+    "whoIsForTitle": "A chi è dedicato",
+    "howItWorksTitle": "Come lavoriamo",
+    "faqTitle": "Domande specifiche",
+    "otherServicesTitle": "Altri servizi",
+    "ctaTitle": "Vuoi valutare il tuo caso?",
+    "ctaDesc": "Consultaci per un'analisi gratuita del tuo caso direttamente su WhatsApp.",
+    "ctaButton": "Richiedi su WhatsApp",
+    "whatsappNotice": "Ricorda: i documenti si inviano in sicurezza solo su WhatsApp.",
+    "consultBanner": "Ogni caso è unico. Consultaci per un'analisi gratuita del tuo caso."
+  },
+  "blog": {
+    "eyebrow": "Blog e guide",
+    "title": "Informazioni chiare su vivere e fare impresa in Paraguay",
+    "subtitle": "Guide introduttive per stranieri che pianificano i propri documenti.",
+    "readArticle": "Leggi articolo",
+    "backToBlog": "Torna al blog",
+    "disclaimerTitle": "Avviso informativo",
+    "disclaimerText": "Contenuto di carattere generale. Consultaci per un'analisi gratuita del tuo caso.",
+    "ctaTitle": "Cerchi un consiglio personalizzato?",
+    "ctaDesc": "Parla direttamente con il nostro team su WhatsApp.",
+    "ctaButton": "Scrivi su WhatsApp"
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Informativa sulla Privacy",
+    "updated": "Aggiornamento: 2026",
+    "intro": "In {company} rispettiamo la tua privacy e proteggiamo i dati che condividi volontariamente.",
+    "sections": [
+      {
+        "title": "1. Dati raccolti sul sito",
+        "body": "Il verificatore rapido salva solo le scelte essenziali (Paese, obiettivo, presenza in Paraguay, nome opzionale) per preparare la consulenza."
+      },
+      {
+        "title": "2. Nessun caricamento documenti",
+        "body": "Sul sito non esistono moduli di upload. Passaporti e certificati sono scambiati solo sul nostro WhatsApp ufficiale."
+      },
+      {
+        "title": "3. Monitoraggio pratica",
+        "body": "La consultazione usa un codice anonimo e mostra solo servizio, fase e nota pubblica."
+      },
+      {
+        "title": "4. Lingua e statistiche",
+        "body": "Salviamo localmente la lingua scelta e utilizziamo metriche aggregate per migliorare l'esperienza."
+      },
+      {
+        "title": "5. Diritti e contatti",
+        "body": "Puoi chiedere aggiornamento o cancellazione dei tuoi dati scrivendo all'e-mail indicata nel footer."
+      }
+    ]
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Pagina non trovata",
+    "desc": "Il link potrebbe essere cambiato. Torna alla home o scrivici su WhatsApp.",
+    "backHome": "Torna alla home",
+    "contactWhatsapp": "Scrivi su WhatsApp"
+  }
+}
