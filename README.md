@@ -80,3 +80,15 @@ npm run build
    - `VITE_SUPABASE_ANON_KEY`
    - `VITE_SITE_URL` (URL final do seu domínio, ex.: `https://suaempresa.com`)
 4. Clique em **Deploy**. O arquivo `vercel.json` já está configurado com rewrites para todas as rotas SPA (`/es`, `/pt-br/servicos/...`, `/acompanhar`, `/admin`).
+
+---
+
+## 5. App do painel admin no celular (PWA)
+
+O `/admin` pode ser instalado como app (ícone na tela inicial, tela cheia). O site público não muda.
+
+- **Android (Chrome):** abra `https://seusite.com/admin` e toque em **Instalar app** no banner (ou menu ⋮ → *Instalar app*).
+- **iPhone (Safari):** abra `https://seusite.com/admin`, toque em **Compartilhar** → **Adicionar à Tela de Início**.
+
+Arquivos: `public/admin.webmanifest`, `public/admin-sw.js`, `public/icons/` e `src/components/AdminPwa.tsx`.
+Os dados do Supabase nunca ficam em cache: o app sempre mostra leads e processos atualizados.

@@ -25,6 +25,7 @@ import {
   updateLeadStatus,
 } from '../lib/supabase';
 import { buildWhatsAppUrl } from '../lib/whatsapp';
+import { AdminPwa } from '../components/AdminPwa';
 import type { LeadRecord, LeadStatus, ProcessRecord } from '../types';
 
 const STAGE_LABELS: Record<number, string> = {
@@ -334,6 +335,7 @@ export function AdminPage() {
           <title>Painel Administrativo — {SITE_CONFIG.companyName}</title>
           <meta name="robots" content="noindex, nofollow" />
         </Helmet>
+        <AdminPwa />
 
         <div className="w-full max-w-md rounded-2xl bg-white p-7 sm:p-9 shadow-xl">
           <div className="flex items-center gap-2.5 text-[#0B1F3A] font-extrabold text-lg mb-6">
@@ -428,6 +430,7 @@ export function AdminPage() {
         <title>Painel Admin — {SITE_CONFIG.companyName}</title>
         <meta name="robots" content="noindex, nofollow" />
       </Helmet>
+      <AdminPwa />
 
       {/* Top Bar */}
       <header className="bg-[#0B1F3A] text-white border-b border-white/10">
